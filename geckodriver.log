@@ -14,3 +14,7 @@ console.error: "getApplied@resource://devtools/server/actors/page-style.js:573:5
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
 1609891264327	Marionette	INFO	Listening on port 63473
 1609891264406	Marionette	WARN	TLS certificate errors will be ignored for this session
+1609895627669	Marionette	INFO	Stopped listening on port 63473
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
