@@ -1,0 +1,16 @@
+1609890333915	geckodriver	INFO	Listening on 127.0.0.1:63102
+1609890334955	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/32/7jx7x43n4vsbxy3djzvm8s740000gn/T/rust_mozprofileDXnprn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609890339622	Marionette	INFO	Listening on port 63114
+1609890339707	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: "getApplied@resource://devtools/server/actors/page-style.js:573:5\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+1609891207585	Marionette	INFO	Stopped listening on port 63114
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1609891259745	geckodriver	INFO	Listening on 127.0.0.1:63462
+1609891260761	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/32/7jx7x43n4vsbxy3djzvm8s740000gn/T/rust_mozprofileiFAvTU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1609891264327	Marionette	INFO	Listening on port 63473
+1609891264406	Marionette	WARN	TLS certificate errors will be ignored for this session
