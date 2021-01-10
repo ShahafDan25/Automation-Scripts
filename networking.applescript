@@ -7,7 +7,7 @@ tell application "Safari"
     -- companies = ["Facebook", "Google", "LinkedIn"]
     activate
     make new document with properties {URL:"https://www.linkedin.com/"} -- document 1
-    delay 2
+    delay 4
     tell application "System Events"
         keystroke "LinkedIn"
     end tell
@@ -21,7 +21,10 @@ tell application "Safari"
             delay 0.5
             key code 36
         end tell -- end system events call
-
+        delay 3
+        do JavaScript "document.getElementById('ember1882').click();" # click the PEOPLE btn
+        delay 3
+        
         do JavaScript
         "
             var ents = document.getElementsByClassName('entity-result__item');  
